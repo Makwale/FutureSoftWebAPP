@@ -1,0 +1,76 @@
+.nav-baground, nav-item{
+    background-color: #4682B4;
+}
+
+.btn-light{
+    color: #4682B4;
+}
+
+.active{
+    background-color: white;
+}
+
+.header{
+    color: #4682B4;
+}
+
+.active-link{
+    color: black;
+    background-color: white;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+::ng-deep a.nav-link {
+    color: white;
+}
+
+.dropdown-menu{
+    width: 350px;
+}
+
+ul{
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+::ng-deep .list-group .list-group-item{
+    border: none;
+    border-radius: 0px;
+}
+
+.first-item{
+    background-color: #4683b445;
+}
+
+::ng-deep .list-group-item{
+    width: 100%;
+}
+
+/* Highlighting part */
+/* Add your general styling here */
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#resultsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultsList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.2s;
+}
+
+::ng-deep .highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
